@@ -1,0 +1,34 @@
+{
+    "name": "budget-planner-api",
+    "version": "1.0.0",
+    "description": "API RESTful pour l'application Planificateur de Budgets",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js",
+      "dev": "nodemon app.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+      "cors": "^2.8.5",
+      "dotenv": "^16.1.4",
+      "express": "^4.18.2",
+      "mongodb": "^5.7.0",
+      "mongoose": "^7.4.1"
+    },
+    "devDependencies": {
+      "nodemon": "^3.0.1"
+    },
+    "engines": {
+      "node": ">=22.0.0"
+    },
+    "keywords": [
+      "budget",
+      "finance",
+      "api",
+      "nodejs",
+      "express",
+      "mongodb"
+    ],
+    "author": "ESGI",
+    "license": "MIT"
+  }
